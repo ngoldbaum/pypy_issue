@@ -1,0 +1,13 @@
+[build-system]
+requires = [
+    "meson>=0.63.0",
+    "meson-python",
+    "patchelf",
+    "wheel",
+    "numpy",
+]
+build-backend = "mesonpy"
+
+[project]
+name = "pypy_bug"
+version = "0.0.1"
